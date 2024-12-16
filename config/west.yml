@@ -4,14 +4,14 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: ZitaoTech
       url-base: https://github.com/ZitaoTech
-    - name: ZMK-locales
-      url-base: https://github.com/joelspadin/
+    - name: joelspadin
+      url-base: https://github.com/joelspadin
   projects:
     - name: zmk
       remote: ZitaoTech
       revision: bbkeyboard_tp
       import: app/west.yml
-    - name: ZML-Locales
+    - name: zmk-Locales
       remote: joelspadin
       revision: main
       import: west.yml
